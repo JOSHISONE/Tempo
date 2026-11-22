@@ -2,9 +2,9 @@ import { PiShrimp } from "react-icons/pi";
 
 export default function Logo() {
   return (
-    <>
-      <PiShrimp aria-hidden="true" className="text-[34px] text-coral" />
-      <b className="font-logo text-[28px] font-normal leading-none">Tempo</b>
-    </>
+    <span className="flex flex-row items-center gap-2">
+      <PiShrimp aria-hidden="true" className="text-[36px] text-coral" />
+      <b className="font-logo hidden text-[28px] font-normal leading-none md:block">Tempo</b>
+    </span>
   );
 }
